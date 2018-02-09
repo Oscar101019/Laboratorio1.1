@@ -30,16 +30,16 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                textView.setText( editText.getText().toString() + " x "+ " 1" + " = "+ (Integer.parseInt(editText.getText().toString())*1)+"\n");
-                textView.setText( editText.getText().toString() + " x "+ " 2" + " = "+ (Integer.parseInt(editText.getText().toString())*2)+"\n");
-                textView.setText( editText.getText().toString() + " x "+ " 3" + " = "+ (Integer.parseInt(editText.getText().toString())*3)+"\n");
-                textView.setText( editText.getText().toString() + " x "+ " 4" + " = "+ (Integer.parseInt(editText.getText().toString())*4)+"\n");
-                textView.setText( editText.getText().toString() + " x "+ " 5" + " = "+ (Integer.parseInt(editText.getText().toString())*5)+"\n");
-                textView.setText( editText.getText().toString() + " x "+ " 6" + " = "+ (Integer.parseInt(editText.getText().toString())*6)+"\n");
-                textView.setText( editText.getText().toString() + " x "+ " 7" + " = "+ (Integer.parseInt(editText.getText().toString())*7)+"\n");
-                textView.setText( editText.getText().toString() + " x "+ " 8" + " = "+ (Integer.parseInt(editText.getText().toString())*8)+"\n");
-                textView.setText( editText.getText().toString() + " x "+ " 9" + " = "+ (Integer.parseInt(editText.getText().toString())*9)+"\n");
-                textView.setText( editText.getText().toString() + " x "+ " 10" + " = "+ (Integer.parseInt(editText.getText().toString())*10)+"\n");
+                textView.setText( editText.getText().toString() + " x "+ " 1" + " = "+ (Integer.parseInt(editText.getText().toString())*1)+"\n"+
+                editText.getText().toString() + " x "+ " 2" + " = "+ (Integer.parseInt(editText.getText().toString())*2)+"\n"+
+                editText.getText().toString() + " x "+ " 3" + " = "+ (Integer.parseInt(editText.getText().toString())*3)+"\n"+
+                editText.getText().toString() + " x "+ " 4" + " = "+ (Integer.parseInt(editText.getText().toString())*4)+"\n"+
+                editText.getText().toString() + " x "+ " 5" + " = "+ (Integer.parseInt(editText.getText().toString())*5)+"\n"+
+                editText.getText().toString() + " x "+ " 6" + " = "+ (Integer.parseInt(editText.getText().toString())*6)+"\n"+
+                editText.getText().toString() + " x "+ " 7" + " = "+ (Integer.parseInt(editText.getText().toString())*7)+"\n"+
+                editText.getText().toString() + " x "+ " 8" + " = "+ (Integer.parseInt(editText.getText().toString())*8)+"\n"+
+                editText.getText().toString() + " x "+ " 9" + " = "+ (Integer.parseInt(editText.getText().toString())*9)+"\n"+
+                editText.getText().toString() + " x "+ " 10" + " = "+ (Integer.parseInt(editText.getText().toString())*10)+"\n");
 
             }
 
